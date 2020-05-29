@@ -6,4 +6,4 @@ def my_collect(array)
   while index < array.length 
     modified_array << yield(array[index])
     index += 1
-
+end
